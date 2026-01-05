@@ -1,0 +1,149 @@
+{
+  "workflow_version": "1.2.0",
+  "timestamps": {
+    "started": "2026-01-02T12:35:00Z",
+    "last_updated": "2026-01-02T12:35:00Z"
+  },
+  "mode": "initial_scan",
+  "scan_level": "quick",
+  "project_root": "C:\\Users\\conta\\Documents\\it-tools",
+  "output_folder": "C:\\Users\\conta\\Documents\\it-tools\\docs",
+  "completed_steps": [
+    {
+      "step": "step_1",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:36:00Z",
+      "summary": "Classified as monolith with 1 part"
+    }
+  ],
+  "current_step": "completed",
+    "outputs_generated": [
+      "project-scan-report.json",
+      "source-tree-analysis.md",
+      "development-guide.md",
+      "deployment-guide.md",
+      "architecture.md",
+      "project-overview.md",
+      "component-inventory.md",
+      "index.md"
+    ],
+  "completed_steps": [
+    {
+      "step": "step_1",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:36:00Z",
+      "summary": "Classified as monolith with 1 part"
+    },
+    {
+      "step": "step_2",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:37:00Z",
+      "summary": "Found 3 existing docs"
+    },
+    {
+      "step": "step_3",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:37:00Z",
+      "summary": "Tech stack: Vue.js on TypeScript"
+    },
+    {
+      "step": "step_4",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:38:00Z",
+      "summary": "Conditional analysis complete, 8 files written"
+    },
+    {
+      "step": "step_5",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:38:00Z",
+      "summary": "Source tree documented"
+    },
+    {
+      "step": "step_6",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:39:00Z",
+      "summary": "Dev setup and deployment documented"
+    },
+    {
+      "step": "step_7",
+      "status": "skipped",
+      "timestamp": "2026-01-02T12:39:00Z",
+      "summary": "Skipped - monolithic project"
+    },
+    {
+      "step": "step_8",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:39:00Z",
+      "summary": "Architecture docs written for 1 parts"
+    },
+    {
+      "step": "step_9",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:40:00Z",
+      "summary": "All supporting docs written"
+    },
+    {
+      "step": "step_10",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:40:00Z",
+      "summary": "Master index generated"
+    },
+    {
+      "step": "step_11",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:41:00Z",
+      "summary": "Validation and review complete"
+    },
+    {
+      "step": "step_12",
+      "status": "completed",
+      "timestamp": "2026-01-02T12:41:00Z",
+      "summary": "Workflow complete"
+    }
+  ],
+  "timestamps": {
+    "started": "2026-01-02T12:35:00Z",
+    "last_updated": "2026-01-02T12:41:00Z",
+    "completed": "2026-01-02T12:41:00Z"
+  },
+    "conditional_analysis": {
+      "tools_count": 86,
+      "components": true,
+      "state_management": "Pinia",
+      "localization": "9 languages",
+      "testing": "Vitest + Playwright"
+    },
+    "technology_stack": {
+      "framework": "Vue.js",
+      "language": "TypeScript",
+      "build_tool": "Vite",
+      "state_management": "Pinia",
+      "ui_library": "Naive UI"
+    },
+    "existing_docs": {
+      "count": 3,
+      "files": [
+        "README.md",
+        "CHANGELOG.md",
+        ".github/"
+      ]
+    },
+  "findings": {
+    "project_classification": {
+      "repository_type": "monolith",
+      "parts_count": 1,
+      "primary_tech": "Vue 3 + TypeScript + Vite"
+    },
+    "project_types": [
+      {
+        "part_id": "main",
+        "project_type_id": "web",
+        "display_name": "it-tools (Vue.js Web Application)"
+      }
+    ]
+  },
+  "outputs_generated": [
+    "project-scan-report.json"
+  ],
+  "resume_instructions": "Starting from step 1"
+}

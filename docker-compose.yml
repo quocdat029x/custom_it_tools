@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  it-tools-custom:
+    image: quocdat029x/it-tools-custom:v1
+    container_name: it-tools-custom
+    ports:
+      - "8088:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    labels:
+      - "com.quocdat029x.description=IT Tools with Custom Team Mentions"
+      - "com.quocdat029x.version=v1"
